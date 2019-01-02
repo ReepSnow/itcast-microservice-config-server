@@ -1,0 +1,13 @@
+server:
+  port: 6688 #服务端口
+
+spring:
+  application:
+    name: itcasst-microservice-config-server #指定服务名
+  cloud:
+    config:
+      server:
+        git: #配置git仓库地址
+          uri: https://github.com/ReepSnow/itcast-server-config.git
+          username: 1020194587@qq.com
+          password: 1111
